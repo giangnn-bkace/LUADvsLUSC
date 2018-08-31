@@ -12,5 +12,26 @@ The original dataset can be download from:
 * LUSC: https://portal.gdc.cancer.gov/files/95258183-63ea-4c97-ae29-1bae9ed06334
 
 ## Prepare data
-To prepare data in right format for training a classifier, run all comment in **_data_prepare.ipynb_** jupyter notebook.
+To prepare data in right format for training a classifier, run all commands in **_data_prepare.ipynb_** jupyter notebook.
 
+## Apply Feature Selection and Classification
+After prepare the data, run all commands in **_Feature_Selection_Tutorial.ipynb_** jupyter notebook to perform feature selection and classification.
+
+## References
+* For studying about **Feature Selection**
+  * A good introduction article about **Feature Selection**
+    * https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/
+  * How to implement some feature selection methods by using **_scikit-learn_** library
+    * http://scikit-learn.org/stable/modules/feature_selection.html
+* For studying about **Support Vector Machine**
+  * Lessons about SVM from Andrew Ng
+    * Lecture 1: https://www.youtube.com/watch?v=hCOIMkcsm_g
+    * Lecture 2: https://www.youtube.com/watch?v=Ccje1EzrXBU
+    * Lecture 3: https://www.youtube.com/watch?v=QKc3Tr7U4Xc
+    * Lecture 4: https://www.youtube.com/watch?v=mTyT-oHoivA
+  * More intuitive lecture about **kernel trick** which is used in SVM
+    * Kernel trick: https://www.youtube.com/watch?v=7_T9AdeWY3k
+  * How to implement **SVM** by using **_scikit-learn_** library
+    * http://scikit-learn.org/stable/modules/svm.html
+* How to do **Cross Validation** by using **_scikit-learn_** library
+  * http://scikit-learn.org/stable/modules/cross_validation.html
