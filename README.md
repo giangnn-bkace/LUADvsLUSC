@@ -13,9 +13,18 @@ The original dataset can be download from:
 
 ## Prepare data
 To prepare data in right format for training a classifier, run all commands in **_data_prepare.ipynb_** jupyter notebook.
+```
+jupyter notebook data_prepare.ipynb
+```
+After finish running all commands, **2 data files** will be generated:
+ * **_data_LUAD.csv_**
+ * **_data_LUSC.csv_**
 
 ## Apply Feature Selection and Classification
 After prepare the data, run all commands in **_Feature_Selection_Tutorial.ipynb_** jupyter notebook to perform feature selection and classification.
+```
+jupyter notebook Feature_Selection_Tutorial.ipynb
+```
 
 ## References
 * For studying about **Feature Selection**
